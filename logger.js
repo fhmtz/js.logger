@@ -5,7 +5,6 @@ function Logger(params){
     this.level = params.level;
     this.timestamp = new timeFormatter(params.timestamp);
 
-	console.log('testing git sourcetreee');
 
     //Checking for required parameters
     if (this.level == undefined){
